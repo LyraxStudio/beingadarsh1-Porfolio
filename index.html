@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BEING ADARSH — fashion, lifestyle, product reviews and creator updates.">
+  <title>BEING ADARSH — Fashion • Lifestyle • Creator</title>
+  <link rel="icon" type="image/jpeg" href="./images/logo.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="modal" id="welcome">
+    <div class="modalbox">
+      <button class="close" type="button" id="closeWelcome">×</button>
+      <h2>Welcome to BEING ADARSH.</h2>
+      <p>Enter your first name to personalize this visit.</p>
+      <input id="visitor" class="input" maxlength="40" placeholder="Your name">
+      <button class="btn primary" type="button" id="enterBtn">Enter the experience →</button>
+      <p class="note">Your name stays in this browser only.</p>
+    </div>
+  </div>
+
+  <header>
+    <div class="wrap">
+      <nav>
+        <a class="brand" href="#">BEING ADARSH</a>
+        <div class="navlinks">
+          <a href="#about">About</a>
+          <a href="#reels">Reels</a>
+          <a href="#ai">Ask AI</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner fade-up">
+        <div class="eyebrow">Fashion • Lifestyle • Creator</div>
+        <h1>BEING<br>ADARSH.</h1>
+        <p id="welcomeText">Fashion inspiration, product finds, trending topics and creator content.</p>
+        <div class="buttons">
+          <a class="btn primary" href="https://www.instagram.com/_beingadarsh1/" target="_blank" rel="noopener">Follow on Instagram ↗</a>
+          <a class="btn" href="#reels">Explore content ↓</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <div class="eyebrow">The creator space</div>
+        <h2 class="section-title">Style. Content. Discovery.</h2>
+        <p class="sub">Fashion sense, product reviews, lifestyle ideas and creator updates.</p>
+        <div class="grid">
+          <article class="card fade-up">
+            <span>01 / Fashion</span>
+            <h3>Dress smarter.</h3>
+            <p>Outfits, accessories, sneakers, fragrances and everyday styling.</p>
+          </article>
+          <article class="card fade-up">
+            <span>02 / Reviews</span>
+            <h3>Find what fits.</h3>
+            <p>Products and links shared through creator content.</p>
+          </article>
+          <article class="card fade-up">
+            <span>03 / Trends</span>
+            <h3>Stay updated.</h3>
+            <p>Trending topics and fresh posts from BEING ADARSH.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="reels">
+      <div class="wrap">
+        <div class="eyebrow">Latest content</div>
+        <h2 class="section-title">Reels & highlights</h2>
+        <p class="sub">Open Instagram for the full series.</p>
+        <div class="reels">
+          <a class="reel fashion" href="https://www.instagram.com/_beingadarsh1/" target="_blank" rel="noopener">
+            <h3>Fashion Series<br><small>View on Instagram →</small></h3>
+          </a>
+          <a class="reel sneakers" href="https://www.instagram.com/_beingadarsh1/" target="_blank" rel="noopener">
+            <h3>Sneaker Finds<br><small>View on Instagram →</small></h3>
+          </a>
+          <a class="reel reviews" href="https://www.instagram.com/_beingadarsh1/" target="_blank" rel="noopener">
+            <h3>Product Reviews<br><small>View on Instagram →</small></h3>
+          </a>
+          <a class="reel trends" href="https://www.instagram.com/_beingadarsh1/" target="_blank" rel="noopener">
+            <h3>Trending Topics<br><small>View on Instagram →</small></h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="ai">
+      <div class="wrap">
+        <div class="eyebrow">Creator assistant</div>
+        <h2 class="section-title">Ask Adarsh AI.</h2>
+        <p class="sub">Local helper for this site. No account needed.</p>
+        <div class="ai">
+          <article class="card">
+            <span>What it can answer</span>
+            <h3>Content • Fashion • Reviews</h3>
+            <p>Ask about Instagram, fashion, the store, or collabs.</p>
+          </article>
+          <div class="chat">
+            <div class="messages" id="messages">
+              <div class="msg">Hey. Ask me about Instagram, fashion, the store, or work enquiries.</div>
+            </div>
+            <div class="chatrow">
+              <input id="chatInput" class="input" placeholder="Ask anything...">
+              <button class="btn primary" type="button" id="sendBtn">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="cta">
+          <div class="eyebrow dark">Creator / Business</div>
+          <h2 class="section-title">Let’s work together.</h2>
+          <p>Business, product reviews and collaborations.</p>
+          <a class="btn" href="mailto:adarshbeing01@gmail.com">adarshbeing01@gmail.com</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap store">
+        <div class="eyebrow">Optional shopping</div>
+        <h2 class="section-title">Explore my FAYM store.</h2>
+        <p class="sub">Products and links from the creator storefront.</p>
+        <a class="btn primary" href="https://faym.co/i/_beingadarsh1" target="_blank" rel="noopener">Visit FAYM Store
+          ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-row">
+      <div>© <span id="year"></span> BEING ADARSH</div>
+      <div>Business: <a href="mailto:adarshbeing01@gmail.com">adarshbeing01@gmail.com</a></div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
